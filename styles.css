@@ -1,0 +1,42 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header {
+    background-color: #a8e6cf; /* Light green for freshness */
+    padding: 20px;
+    text-align: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    background-color: #ffd54f; /* Warm yellow for optimism */
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #004d40; /* Dark teal for readability */
+    padding: 10px;
+}
+
+.section {
+    padding: 20px;
+    margin: 10px 0;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+    }
+}
+
+.footer {
+    background-color: #d7ccc8; /* Neutral brown for balance */
+    text-align: center;
+    padding: 10px;
+}
